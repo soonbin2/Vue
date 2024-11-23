@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Movies</title>
+    <style>
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .movie-item {
+            width: 200px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .movie-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .movie-title {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Latest Movies</h1>
+    <div class="movie-container" id="movieContainer">
+        
+    </div>
+
+    <script src="kmdb.js"></script>
+</body>
+</html>
